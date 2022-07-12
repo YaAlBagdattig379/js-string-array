@@ -16,6 +16,12 @@ const outPut = [];
 // }
 console.log(outPut);
 
+
+
+
+
+
+
 // example: 2."How to find out any specific products of an array using "includes"" 
 // all most 'includes and indexOf same'
 
@@ -32,6 +38,8 @@ const outPut2 = [];
 //     }
 // }
 console.log(outPut2);
+
+
 
 
 
