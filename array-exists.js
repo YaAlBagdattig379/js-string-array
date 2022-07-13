@@ -75,9 +75,8 @@ else{
 
 
 
-//3 use  of "concat" how to check a speciifc index Element is available or not in a array?
+//3. use  of "concat" how to check a speciifc index Element is available or not in a array?
 const firstPage = [1, 3 , 4, 5 , 7]; 
 const secondPage = [9, 13 , 14, 15 , 17];
 const combinedNumber = firstPage.concat(secondPage);
 console.log(combinedNumber);
- 
