@@ -24,7 +24,7 @@ console.log(myChoiceNumbers);// o.p >> 180
  
 
 
-// 2 B...example as which all of statement will be "stirng" same technique
+// 2 B....example as which all of statement will be "stirng" same technique
 function getFullName(first , last){
     let fullName = " ";
     for(const part of arguments){
@@ -35,5 +35,5 @@ function getFullName(first , last){
 }
 const name = getFullName('ghugu','bogula','saros','gudurkani','khokoPeCha');
 console.log(name); 
-//o.p without single space >> ghugubogulasarosgudurkanikhokoPeCha 
+//o.p without single space >> ghugubogulasarosgudurkanikhokoPeCha
 //o.p with single space >>  ghugu bogula saros gudurkani khokoPeCha
