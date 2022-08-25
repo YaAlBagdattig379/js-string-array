@@ -9,12 +9,13 @@ const products = [
 const searching = 'laptop'
 const outPut = [];
 
+
 // for(const product of products){
 //     if(product.toLowerCase().indexOf(searching.toLowerCase()) != -1){
 //          outPut.push(product);
 //     }
 // }
-console.log(outPut);
+// console.log(outPut);
 
 
 
@@ -37,7 +38,7 @@ const outPut2 = [];
 //         outPut2.push(product);
 //     }
 // }
-console.log(outPut2);
+// console.log(outPut2);
 
 
 
@@ -58,7 +59,7 @@ const outPut3 = [];
 //         outPut3.push(product)
 //     }
 // }
-console.log(outPut3)
+// console.log(outPut3)
 
 
 
@@ -78,4 +79,4 @@ for(const product of shopping){
         outPut4.push(product);
     }
 }
-console.log(outPut4);
+// console.log(outPut4);

@@ -12,5 +12,5 @@ try{
     console.log(' this are infected by catch',error);
     // console.log(error);
 }
-let nubs = 'what a mass i am not infected by covid-9 !'
+let nubs = 'what a mass i am not infected by covid-19 !!'
 console.log(nubs)
