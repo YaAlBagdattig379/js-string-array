@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div>
+    <h3>!!!-- example : 1....... using "<b>try</b> and <b>catch</b>" normally --!!!</h3>
+    <!-- example :: 1 by "try and catch" -->
+    <div style="text-align: center;">
+      <h2>JavaScript try & catch</h2>
+  
+      <p>Please <b>input</b> a number between <b>20</b> to <b>30:</b></p>
+  
+      <input id="input-demo" type="text">
+  
+      <button type="button" id="myFunction"style="margin-bottom: 30px;color:brown">Test Input</button> <br>
+  
+      <p id="eSms"style="color:orange;font-size:20px;font-weight :800px;"></p>
+    </div>    
+  </div>
+
+
+
+  <div style="margin-left: 20px;margin-top: 6em;">
+    <h3 style="color:rgb(11, 78, 11)">!!!-- example :  2....... using "<b>try</b> and <b>catch</b>" advance --!!!</h3>
+    
+    <h2>JavaScript try catch</h2>
+
+    <p>Please input a number between 5 and 10:</p>
+
+
+
+    <input id="input-demo" type="text">
+    <button type="button" onclick="buttonFunction()">Test Input</button>
+    <p id="extra-p"></p>
+
+  </div>
+  <script>
+              
+ function buttonFunction() {
+    // const message = document.getElementById("extra-p");
+    // message.innerText = "";
+    let x = document.getElementById("input-demo").value;
+    try { 
+      if(x == ""){
+        throw "empty";
+      }  
+      if(isNaN(x)){
+        throw "empty";
+      } 
+      x = Number(x);
+      if(x < 5)  throw "too low";
+      if(x > 10)   throw "too high";
+    }
+    catch(err) {
+      // message.innerHTML = "Input is " + err;
+      console.log(err);
+    }
+}
+  </script>
+  <!-- <script src="v-8-b-try-catch.js"></script> -->
+
+</body>
+</html>
+
+
+

@@ -1,4 +1,6 @@
-// this is in that area where examles of "try catch er"
+// this is in that area where examles of "try catch er" and "finally" also "throw"
+// this is in that area where examles of "try catch er" and "finally" also "throw"
+// this is in that area where examles of "try catch er" and "finally" also "throw"
 
 const nickName = 'mantu'
 const mangoeNames = 'fajali';
